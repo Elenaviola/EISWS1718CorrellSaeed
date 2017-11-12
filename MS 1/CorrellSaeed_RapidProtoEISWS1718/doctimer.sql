@@ -8,7 +8,7 @@
 -- PHP-Version: 7.0.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
+SET time_zone = "+01:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -39,9 +39,9 @@ CREATE TABLE `patient` (
 --
 
 INSERT INTO `patient` (`patient_id`, `name`, `vorname`, `geburtsdatum`, `krankenkasse`) VALUES
-(31, 'Kamille', 'Kamilla', '0000-00-00', 'AOK'),
-(32, 'Rose', 'Rosa', '0000-00-00', 'BARMER'),
-(33, 'Salbei', 'Sam', '0000-00-00', 'TK');
+(31, 'Kamille', 'Kamilla', '1991-02-02', 'AOK'),
+(32, 'Rose', 'Rosa', '20000-11-05', 'BARMER'),
+(33, 'Salbei', 'Sam', '1999-09-06', 'TK');
 
 -- --------------------------------------------------------
 
