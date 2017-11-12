@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<title> DocTimer </title>
+		<link href="main.css" rel="stylesheet" type="text/css" >
+	</head>
+	
+	<body>
+		
+		<h1>Willkommen bei DocTimer<br>
+		</h1>
+		
+		<ul>
+			<li><a href=index.html> Home </a></li>
+			<li> Termin buchen </li>
+			<li><a href="uebersicht.html"> Terminuebersicht </a></li>
+		</ul>	
+		
+		
+		<h2> buchen Sie jetzt einen Termin <br>
+		</h2>
+
+		<img src=""><br>
+
+		<div> </div>
+		<span> </span>
+
+	<input id="eventClick" type ="button" value="PLZ eingeben">
+	<input id="eventClick2" type ="button" value="nach einem Arzt suchen">
+
+	<script>
+		
+		function eventClicker() { prompt('Bitte geben Sie Ihre PLZ ein'); 
+		};
+		document.getElementById ('eventClick').addEventListener ('click', eventClicker);	
+		function eventClicker2() { prompt('Bitte geben Sie den Namen Ihres Arztes ein'); 
+		};
+		document.getElementById ('eventClick2').addEventListener ('click', eventClicker2); 
+
+		
+	</script>
+</body>
+</html>
