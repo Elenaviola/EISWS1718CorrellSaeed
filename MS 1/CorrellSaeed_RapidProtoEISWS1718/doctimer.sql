@@ -90,3 +90,14 @@ INSERT INTO `termin` (`termin_id`, `terminart`, `dauer`) VALUES
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+CREATE TABLE `slots` (
+  `praxis_id` int(100) NOT NULL,
+  `datum` date NOT NULL,
+  `uhrzeit` time NOT NULL,
+  `terminart` varchar(100) NOT NULL,
+  `dauer` int(10) NOT NULL
+  `name` varchar(50) NOT NULL,
+  `start` timestamp NOT NULL,
+  `ende` timestamp NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
