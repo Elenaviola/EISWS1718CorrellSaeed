@@ -1,0 +1,30 @@
+body {
+	background-image: url("background.jpg");
+	font-family: arial;
+}
+h1 {
+	background: #123;
+	color: white;
+}
+
+h2 {
+	background: #155;
+	color: white;
+}
+
+li, a{
+	background: #123;
+	color: white;
+	padding: 5px;
+}
+
+p {
+	background: #155;
+	color: white;
+}
+
+input {
+	background: #999;
+}
+
+
